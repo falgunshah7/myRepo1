@@ -3,12 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --ci --reporters=default --reporters=jest-junit"
   },
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "jest": "^30.0.4"
+    "jest": "^30.0.4",
+    "jest-junit": "^16.0.0"
   }
 }
